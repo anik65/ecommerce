@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #f3f3f3 ; 
+}
+ul li{
+    list-style: none;
+}
+ nav {
+    background: #f10e34;  
+    padding: 5px 0; 
+}
+.navbar-toggler i{
+    color: #fff;
+}
+.text-logo a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 2px; 
+}
+.text-logo a i{
+    margin-right: 3px;
+}
+ 
+.navbar-nav li a{
+    color: #fff;
+    font-weight: 400; 
+    font-size: 14px;
+    text-transform: uppercase; 
+} 
+ 
+.list-group li a{
+    color: #222222;
+    text-transform: capitalize; 
+    font-weight: 400;
+    padding-left: 21px; 
+}
+.list-group li a i{
+    margin-right: 22px;
+}
+.nav-slider{
+    position: relative; 
+}
+.nav-img {
+  position: absolute; 
+}
+.nav-text{
+    position: absolute;  
+    text-transform: uppercase; 
+}
+.nav-text h4{
+ color: #303a7a; 
+ font-weight: 700;
+}
+.nav-text h2,.nav-text p{
+    color: #fff; 
+    font-weight: 700;
+   }
+.button{
+    border: 1px solid #000; 
+}
+.button a{ 
+    color: #000; 
+}
+.nav-footer{ 
+    position: absolute;
+    background: #f10e34; 
+}
+.nav-footer-text h6{
+    color: #fff; 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-footer-text p{
+    color: #fff; 
+    text-transform: uppercase; 
+} 
+  .sticky{
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+  }
+  /*============*/
+  
+  .shoe{
+    background: #fff; 
+} 
+.shoe h4{
+  text-transform: uppercase;
+}
+  .button-icon li {
+      display: inline-block;
+  }
+  .button-icon li a i{
+   font-size: 16px;
+   color: #fff;
+}
+.left{
+    color: #bcbcbc; 
+}
+.button-icon li:nth-child(1){
+    margin-left: 10px;
+    background:#f10e34;
+    border-radius: 50%;
+    padding: 1px 8px;
+}
+ .button-icon li:nth-child(2){
+     margin-left: 8px;
+     background:#cacaca;
+     border-radius: 50%;
+     padding: 1px 8px;
+ }
+ .carousel-item i {
+     color: #ffc808;
+     font-size: 15px;
+ }
+ .products {
+    background: #fff; 
+ }
+  
+  
